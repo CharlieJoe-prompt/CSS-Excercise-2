@@ -1,0 +1,96 @@
+html {
+    background-color: rgb(100, 187, 216);
+    font-family: sans-serif;
+}
+
+.page-title {
+    color: rgb(181, 210, 245);
+    font-size: 60px;
+    line-height: 1;
+    margin: 10px;
+}
+
+.course-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.course {
+    background-color: white;
+    border: 5px solid hsl(219, 81%, 75%);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-type:none;
+}
+
+.course-name {
+    margin: 0;
+    color: hsl(0, 0%, 0%);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.course-hours {
+    margin: 0;
+    color: hsl(0, 0%, 0%);
+    font-size: 15px;
+}
+
+.course-dishes {
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none;
+    color: beige;
+}
+
+.dish {
+    margin: 20px 0;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: rgb(78, 95, 193);
+}
+
+.dish-name {
+    margin: 0 0 10px 0;
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+    
+}
+
+.ingredients {
+    color: aliceblue;
+    list-style:circle;
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+
+.line{
+    border-style:double; 
+    border-color: rgb(230, 202, 255);
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+.separator {
+    margin: 15px 0;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.tags {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tag {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid hsl(0, 0%, 0%);
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 15px;
+    color:black;
+}
